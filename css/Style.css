@@ -1,0 +1,175 @@
+﻿body {
+    /* align-content; */
+    /* pj ./ margin:0; */
+    padding: 0;
+    font-family: "Roboto",sans-serif;
+}
+
+header {
+    position: fixed;
+    background: #3353FF;
+    padding: 20px;
+    width: 100%;
+    height: 30px;
+}
+
+.left-area h3 {
+    color: #fff;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.logout_btn {
+    padding: 5px;
+    background: #3353FF;
+    text-decoration: none;
+    float: right;
+    margin-top: -30px;
+    margin-right: 40px;
+    border-radius: 2px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    transition: 0.5s;
+    transition-property: background;
+}
+
+.logout_btn:hover {
+    background: #0094ff
+}
+
+.sidebar {
+    background: #3353FF;
+    margin-top: 56px;
+    padding-top: 30px;
+    position: fixed;
+    left: 0;
+    width: 300px;
+    height: 100%;
+    /* z-index: -1; */
+}
+
+.sidebar .Profile_image {
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.sidebar h4 {
+    color: #ccc;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.sidebar a {
+    color: #fff;
+    display: block;
+    width: 100%;
+    line-height: 60px;
+    text-decoration: none;
+    padding-left: 40px;
+    box-sizing: border-box;
+}
+
+.sidebar a:hover {
+    background: #ccc
+    }
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+.container {
+    width: 100%;
+    height: 100%;
+    /* background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4),url('Registration.png')); */
+    background-position: center;
+    z-index: -1;
+    background-size: cover;
+    position: absolute;
+}
+
+.form-box {
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    /* background: #fff; */
+    padding: 5px;
+}
+
+.button-box {
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #f66d0c;
+    border-radius: 30px;
+    transition: .5s;
+}
+
+.gwd-label-accept{
+    z-index: 10;
+    position: absolute;
+    border: 1px solid #c7e9c6;
+    border-radius: 4px;
+    color: #3c763c;
+    background-color: #d8f0da;
+    width: 100px;
+    height: 20px;
+    left: 81%;
+    /* top: 32%; */
+}
+.gwd-label-accept:hover{
+   background-color: #69d870;
+}
+.gwd-label-reject {
+    z-index: 10;
+    position: absolute;
+    border: 1px solid #e9c6c6;
+    border-radius: 4px;
+    color: #763c3c;
+    background-color: #f0d8d8;
+    width: 100px;
+    height: 20px;
+    /* left: 91%;
+    top: 32%; */
+}
+.gwd-label-reject:hover{
+   background-color: #eb8c8c;
+}
+.gwd-p-request_label{
+    z-index: 10;
+    position: absolute;
+    padding: 15px;
+    border: 1px solid #c6d6e9;
+    border-radius: 4px;
+    color: #3c5076;
+    background-color: #d8eef0;
+    /* top: 17%; */
+    width: 17%;
+    height: 8%;
+    /* left: 80%; */
+}
+.gwd-p-request_label:hover{
+    background-color: #8ceaf3;
+}
+
+.gwd-div-ij54s{
+    /* whole request box with accept buttons */
+    visibility: visible;
+}
+.Formbox {
+    /* background-blend-mode: transperent; */
+    opacity: 0.7;
+    top: 200px;
+    left:500px;
+    width: 400px;
+    height: 200px;
+    position: relative;
+    /* margin: 6% auto; */
+    background: #b91d1d;
+    padding: 10px;
+    visibility: visible;   
+}

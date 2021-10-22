@@ -1,0 +1,160 @@
+﻿body.Student {
+    align-content: center;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto",sans-serif;
+}
+header {
+    position: fixed;
+    background: #3353FF;
+    padding: 20px;
+    width: 100%;
+    height: 30px;
+}
+.left-area h3 {
+    color: #fff;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.logout_btn {
+    padding: 5px;
+    background:#ff6a00;
+    text-decoration: none;
+    float: right;
+    margin-top: -30px;
+    margin-right: 40px;
+    border-radius: 2px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    transition: 0.5s;
+    transition-property: background;
+}
+
+    .logout_btn:hover {
+        background: #ff6a00;
+    }
+
+.sidebar {
+    background: #61a318;
+    margin-top: 56px;
+    padding-top: 30px;
+    position: fixed;
+    left: 0;
+    width: 300px;
+    height: 90%;
+}
+
+    .sidebar .Profile_image {
+        height: 100px;
+        width: 100px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+
+    .sidebar h4 {
+        color: #ccc;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
+    .sidebar a {
+        color: #fff;
+        display: block;
+        width: 100%;
+        line-height: 60px;
+        text-decoration: none;
+        padding-left: 40px;
+        box-sizing: border-box;
+        font-size: medium
+    }
+
+    .sidebar a:hover {
+       background: #ccc
+    }
+body.Admin login {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container1-box {
+    width: 100%;
+    height: 100%;
+    background-image: url('../registration.png');
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+.form1-box {
+    top: 150px;
+    width: 250px;
+    height: 200px;
+    position: relative;
+    margin: 6% auto;
+    background: #ffffff;
+    padding: 10px;
+}
+
+.inputs {
+    top: 50px;
+    position: absolute;
+    width: 220px;
+    transition: .5s;
+}
+
+.field {
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px 30px;
+    top: 10px;
+    cursor: pointer;
+    margin: auto;
+    display: block;
+    background: linear-gradient(to right,#ff105f,#ffad06);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+.student_name_label {
+    padding: 5px;
+    background:#ff6a00;
+    /* text-decoration: none;
+    margin-top: -30px;
+    margin-right: 40px;
+    border-radius: 2px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    transition-property: background; */
+
+    background: rgb(255, 106, 0);
+    /* position: absolute;
+    width: 300px;
+    height: 70px;
+    transform-origin: 50% 50% 0px; 
+    right: 50%;
+    left: 400px;
+    top: -4px; */
+  }
+  .middle-area{
+    color: #fff;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 100;
+  }
+
